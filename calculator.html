@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Sederhana</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <textarea class="input-textarea" id ="result"></textarea>
+  
+    <button class="button" onclick="clearResult()">C</button>
+    <button class="button" onclick="plusValue('/')">/</button>
+    <button class="button" onclick="plusValue('-')">-</button>
+    <button class="button" onclick="plusValue('*')">*</button>
+    <button class ="button" onclick="plusValue('+')">+</button>
+    <button class="button" onclick="minusValue()">&larr;</button>
+
+    <button class="result" onclick="calculate()">=</button>
+    <button class="number" onclick="plusValue('0')">0</button>
+    <button class = "number" onclick="plusValue('7')">7</button>
+    <button class = "number" onclick="plusValue('8')">8</button>
+    <button class = "number"onclick="plusValue('9')">9</button>
+    <button class = "number"onclick="plusValue('4')">4</button>
+    <button class = "number" onclick="plusValue('5')">5</button>
+    <button class = "number"onclick="plusValue('6')">6</button>
+    <button class = "number"onclick="plusValue('1')">1</button>
+    <button class = "number"onclick="plusValue('2')">2</button>
+    <button class = "number"onclick="plusValue('3')">3</button>
+    <button class="number" onclick="plusValue('.')">.</button>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
